@@ -135,13 +135,21 @@ pip install git+https://github.com/pavankumarchowdary35/ML-Project.git
 
 # Testing the Package Working
 
-1. Remove the PYTHONPATH from environment variables 
-2. Goto a separate location which is outside of package directory
-3. Create a new virual environment using the commands mentioned above & activate it
-4. Before installing, test whether you are able to import the package of `prediction_model` - (you should not be able to do it)
-5. Now in the new environment install the package from github
+1. Create a new virual environment using the commands mentioned above & activate it
+2. Now in the new environment install the package from github
 `pip install git+https://github.com/pavankumarchowdary35/ML-Project.git`
-6. Now try importing the src, you should be able to do it successfully- import src
-7. Extras : Run training pipeline using the package, and also conduct the test
+3. Now to make prediction on your custom data , run the following code. Make sure that your custom data should have the features described above.
+```
+from src import training_pipeline 
+import pandas as pd
+from src import predict
+
+training_pipeline.perform_training()
+test_data = pd.read_csv('test.csv')
+
+predict.generate_predictions(test_data[:1])
+
+```
+
 
 
