@@ -1,0 +1,13 @@
+include *.txt
+include *.md 
+include *.py
+recursive-include ./src/*
+
+include src/datasets/*.csv
+include src/trained_models/*.pkl
+include src/processing/*.py
+incude src/VERSION
+include ./tests/*
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

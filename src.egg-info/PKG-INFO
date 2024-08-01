@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: src
+Version: 1.0.0
+Summary: Loan Prediction Model
+Home-page: https://github.com/pavankumarchowdary35/ML-Project.git
+Author: Pavan Kumar Medarametla
+Author-email: pavankumarchowdary35@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+
+
