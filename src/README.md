@@ -141,7 +141,7 @@ pip install git+https://github.com/pavankumarchowdary35/ML-Project.git
 4. Before installing, test whether you are able to import the package of `prediction_model` - (you should not be able to do it)
 5. Now in the new environment install the package from github
 `pip install git+https://github.com/pavankumarchowdary35/ML-Project.git`
-6. Now try importing the prediction_model, you should be able to do it successfully
+6. Now try importing the src, you should be able to do it successfully- import src
 7. Extras : Run training pipeline using the package, and also conduct the test
 
 
